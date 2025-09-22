@@ -86,14 +86,14 @@ const Hero = () => {
             ].map((stat, index) => (
               <div
                 key={index}
-                className="text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm border border-border animate-fade-in"
+                className="text-center p-4 rounded-lg bg-gradient-to-br from-primary/10 to-primary/5 backdrop-blur-sm border border-primary/20 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <i className={`fas ${stat.icon} text-2xl text-primary mb-2`}></i>
-                <div className="font-accent font-bold text-2xl text-foreground">
+                <div className="font-accent font-bold text-2xl text-primary">
                   {stat.value}
                 </div>
-                <div className="text-sm text-muted-foreground font-body">
+                <div className="text-sm text-primary/80 font-body">
                   {stat.label}
                 </div>
               </div>
