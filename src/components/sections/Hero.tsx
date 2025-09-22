@@ -18,7 +18,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-120 flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/50 to-background z-10" />
@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             <span className="text-gradient animate-fade-in">
               Hire & Buy
             </span>
