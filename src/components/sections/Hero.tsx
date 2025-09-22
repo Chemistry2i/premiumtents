@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="font-heading text-3xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
             <span className="text-gradient animate-fade-in">
               Hire & Buy
             </span>
