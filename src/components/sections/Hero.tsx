@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="font-heading text-3xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-6xl font-bold mb-4 leading-tight">
             <span className="text-gradient animate-fade-in">
               Hire & Buy
             </span>
@@ -52,13 +52,13 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in">
+          <p className="font-body text-lg md:text-xl text-muted-foreground mb-6 max-w-2xl mx-auto animate-fade-in">
             From intimate gatherings to grand celebrations, we provide luxury tent solutions 
             that elevate your events to extraordinary experiences.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-slide-up">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-slide-up">
             <Button
               size="lg"
               className="gradient-gold text-primary-foreground hover:shadow-glow font-accent font-semibold text-lg px-8 py-6"
